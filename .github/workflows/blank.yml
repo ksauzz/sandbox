@@ -36,4 +36,5 @@ jobs:
           echo test, and deploy your project.
 
       - name: test
-        run: /usr/bin/env bash
+        run: env
+        env: PATH=$HOME/.cache/bin:$PATH
