@@ -37,4 +37,5 @@ jobs:
 
       - name: test
         run: env
-        env: PATH=$HOME/.cache/bin:$PATH
+        env:
+          PATH: $HOME/.cache/bin:$PATH
